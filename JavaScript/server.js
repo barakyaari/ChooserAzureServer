@@ -2,6 +2,7 @@ var mysql = require('mysql');
 var express = require('express');
 var app = express();
 
+//Initialize controllers
 var controllers = require('./controllers');
 controllers.set(app);
 var SERVER_PORT = 8080;
